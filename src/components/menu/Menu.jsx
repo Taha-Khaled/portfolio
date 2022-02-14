@@ -23,10 +23,10 @@ export default function Menu(props) {
     <div className={`menu ${props.openMenu && "active"}`}>
       <ul>
         <MenuItem link="#intro" text="Home" />
-        <MenuItem link="#portfolio" text="portfolio" />
-        <MenuItem link="#works" text="works" />
-        <MenuItem link="#testimonials" text="testimonials" />
-        <MenuItem link="#contact" text="contact" />
+        <MenuItem link="#portfolio" text="Portfolio" />
+        <MenuItem link="#works" text="Works" />
+        <MenuItem link="#testimonials" text="Testimonials" />
+        <MenuItem link="#contact" text="Contact" />
       </ul>
     </div>
   );
