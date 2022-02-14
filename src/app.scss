@@ -1,0 +1,31 @@
+.app {
+  height: 100vh;
+
+  > * h1 {
+    color: #1a1131;
+  }
+}
+.sections {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-color: antiquewhite;
+  position: relative;
+  top: 75px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  > * {
+    width: 100vw;
+    height: calc(100vh - 75px);
+    scroll-snap-align: start;
+  }
+}
+/*personal*/
+* {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
