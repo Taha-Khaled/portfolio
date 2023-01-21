@@ -1,5 +1,4 @@
 import "./topbar.scss";
-//import whiteLogo from "./mylogo-white.png";
 import logo from "./mylogo-white.png";
 import { Person, Mail } from "@material-ui/icons";
 export default function TopBar(props) {
@@ -17,7 +16,7 @@ export default function TopBar(props) {
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>TahaUiDeveloper@gmail.com</span>
+            <span>tahakhaledabdellah@gmail.com</span>
           </div>
         </div>
         <div className="right">

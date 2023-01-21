@@ -8,10 +8,10 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       strings: [
-        "UI Developer.",
         "Reactjs Developer.",
         "Software Engineer.",
-        "Graphic Designer.",
+        "javaScript Developer.",
+        "Frontend Engineer.",
       ],
     });
   }, []);
